@@ -26,7 +26,7 @@ function Grp204WeatherApp() {
     localStorage.setItem('favoriteCities', JSON.stringify(favoriteCities));
   }, [favoriteCities]);
 
-  // Fonction pour obtenir la date actuelle formatée
+  // Fonction pour obtenir la date actuelle formaté
   const toDateFunction = () => {
     const months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 
       'Septembre', 'Octobre', 'Novembre', 'Décembre'];
